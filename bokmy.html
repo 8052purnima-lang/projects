@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>BookMyShow</title>
+</head>
+<body>
+    <div>
+        <h5> Bookmyshow  &nbsp;<input  type="text" id="search" placeholder="search for movies, events, plays, sports and activities" size="50"/>  &nbsp;
+        <label for="location"> Select City </label>
+        <select name="location" id="location">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="chennai">Chennai</option>
+            <option value="bangalore">Bangalore</option>
+        </select> &nbsp;
+            <button type="sign in">Sign in</button>
+        </h5>
+    </div>
+    <div style="border:1px solid black;">
+        <img src="book my"> 
+        <h4 > Movies   &nbsp; Stream   &nbsp;   Event    &nbsp;  Plays  &nbsp;    Sports    &nbsp;   Activities  </h4>
+          
+        <div class="menu-icon">
+             <span></span>
+             <span></span>
+             <span></span>
+        </div>
+
+    </div>
+    <div class="slider">
+        <img class="slide active"   src ="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1776147500464_popwebnew.jpg" width="40px">
+        <img class="slide" src="https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1781176602960_michaelweb12june.jpg" width="40px">
+
+        <button class="prev" onclick="prevSlide()"></button>
+        <button class="next" onclick="nextSlide()"></button>
+        <!-- <br> -->
+
+        <table>
+             <tr>
+                <td>
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.WvGbEW_0JP-yGygr8VjqBQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Movie Image" width="400" height="500">
+                    <p> The Great Grand Super hero  </p>
+                    <p> Adventure/Family/Fantasy</p> </td>
+                <td>
+                     <img src="https://th.bing.com/th/id/OIP.WPcugtLBpCCR2mPyensBFgAAAA?w=187&h=333&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                     alt="Movie Image" width="400" height="500">
+                    <p> The Great Grand Super hero  </p>
+                    <p> Adventure/Family/Fantasy</p>
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni40LzEwICA2LjJLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00466949-dhrenpnbzb-portrait.jpg "
+                         alt="Movie Image" width="400" height="500">
+                    <p> Kattalan </p>
+                    <p> Action/Thriller</p>
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTIuOEsrIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00497964-nhhpfgngas-portrait.jpg"
+                         alt="Movie Image" width="400" height="500">
+                    <p> Return of the jungle</p>
+                    <p> Action/Animation/Drama</p>
+
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTEuMksrIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00500070-vmspsaapym-portrait.jpg" alt="Movie Image" width="400" height="500">
+                    <p> Jeena dil se </p>
+                    <p> Action/Animation/Drama</p>
+                </td>
+             </tr>
+        </table>
+    </div>
+    <div>
+        <h2> Recommended  Movies </h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MTA0SysgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00494239-fjzcusdnug-portrait.jpg" alt="Movie Image" width="400" height="500">
+                    <p> Shree Baba Naam Karoli </p>
+                    <p> Biography/Drama</p>
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NC4xSysgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00498385-rfclcluxly-portrait.jpg" alt="Movie Image" width="400" height="500">
+                    <p> Shree Baba Naam Karoli </p>
+                    <p> Biography/Drama</p>
+
+                </td>
+                 <td>
+                     <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS43LzEwICA1MCsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@pt-v1.png,t-false,lfo-top_right,lx-N5,ly-0,w-160,l-end/et00496590-pwbhljcwrm-portrait.jpg"
+                     alt="Movie Image" width="400" height="500">
+                    <p> The Great Grand Super hero  </p>
+                    <p> Adventure/Family/Fantasy</p>
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni40LzEwICA2LjJLKyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00466949-dhrenpnbzb-portrait.jpg "
+                         alt="Movie Image" width="400" height="500">
+                    <p> Kattalan </p>
+                    <p> Action/Thriller</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png" alt="Movie Image" width="1500" height="200">
+    
+    <div>
+        <h2>The Best of live events </h2>
+        <table>
+            <tr>
+                <td>
+                     <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MjUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png" alt="Movie Image" width="300" height="400">
+                </td>
+                <td>
+                     <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/amusement-parks-banner-desktop-collection-202503251132.png    " alt="Movie Image" width="300" height="400">
+                </td>
+                <td>
+                     <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/kids-banner-desktop-collection-202503251132.png"    alt="Movie Image" width="300" height="400">
+
+                </td>
+                <td>
+                     <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png" alt="Movie Image" width="300" height="400">
+
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/arts-crafts-collection-202211140440.png"  alt="Movie Image" width="300" height="400">
+
+                </td>
+            </tr>
+        </table>    
+    </div>
+    <div>
+      <h2> Your Movie Studio</h2>
+      <table>
+        <tr>
+            <td>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAxMSBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00499801-heuetuhzmc-portrait.jpg"    alt="Movie Image" width="300" height="400">
+
+            </td>
+            <td>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMyBKdW4%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00146566-fawmymfcgz-portrait.jpg " alt="Movie Image" width="300" height="400">
+
+            </td>
+            <td>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyOSBNYXkgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00479860-nstrdugcyw-portrait.jpg"    alt="Movie Image" width="300" height="400">
+
+            </td>
+            <td>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCA2IEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00492832-lmuexhwawr-portrait.jpg" alt="Movie Image" width="300" height="400">
+
+            </td>
+            <td>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCA2IEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00492832-lmuexhwawr-portrait.jpg" alt="Movie Image" width="300" height="400">
+
+            </td>
+            <td>
+                <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCA2IEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00499890-dustxamsrb-portrait.jpg" alt="Movie Image" width="300" height="400">
+
+            </td>
+        </tr>
+      </table>
+
+    </div>
+    <div> 
+        <h5> Outdoor Events  </h5>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMyBKdW4%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@pt-v1.png,t-false,lfo-top_right,lx-N5,ly-0,w-160,l-end/et00409716-bvtneuuapf-portrait.jpg" alt="Movie Image" width="300" height="400">
+
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAzMCBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@pt-v1.png,t-false,lfo-top_right,lx-N5,ly-0,w-160,l-end/et00498875-lrmawftstg-portrait.jpg" alt="Movie Image" width="300" height="400">
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyOSBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00146589-baqlqyxzun-portrait.jpg" alt="Movie Image" width="300" height="400">
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAzMCBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00417775-swgyuaqcuu-portrait.jpg" alt="Movie Image" width="300" height="400">
+                </td>
+                <td>
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyOSBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00146313-ybbrnqtfnr-portrait.jpg" alt="Movie Image" width="300" height="400">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <span >Customer Services </span>
+        <span >Terms of Use  </span>
+        <span >Privacy Policy </span>
+        <span >Feedback </span>
+        <span >Careers </span>
+        <span >Contact Us </span>
+
+    </footer>
+</body>
+</html>
